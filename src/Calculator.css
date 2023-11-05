@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.display {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.result {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #888;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
